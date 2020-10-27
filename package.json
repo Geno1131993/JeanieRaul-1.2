@@ -1,0 +1,12 @@
+{
+    "name": "jeanie-raul-maintenance",
+    "version": "1.2.0",
+    "description": "",
+    "main": "server.js",
+    "author": "DS",
+    "license": "ISC",
+    
+    "dependencies": {
+        "express": "^4.16.4"
+    }
+}

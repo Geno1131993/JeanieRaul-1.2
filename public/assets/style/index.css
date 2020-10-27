@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+
+body{
+    height: 100vh;
+}
+
+
+.banner{
+    padding: 10px;
+}
+
+
+.tab{
+    overflow: hidden;
+}
+
+
+.article{
+    background-color: yellow;
+}
+
+
+.tablink{
+    width: 200px;
+}
+
+
+.inactive{
+    display: none;
+}
+
+
+.image{
+    height: 150px;
+    width: 150px;
+    margin-left: 30px;
+}
+
+
+.title{
+    margin: 10px;
+}
+
+
+
+.content{
+    padding: 10px;
+}
+
+
+
+#logo{
+    font-size: 36px;
+    margin-left: 30px;
+}
+
+
+#tab-container{
+    background-color: yellow;
+}
+
+#card-container{
+    height: 300px;
+}
+
+
+
+#about{
+    margin-left: 30px;
+}
