@@ -5,12 +5,11 @@ $(".tablink").on("click", function(event) {
     let activeID = document.getElementsByClassName("active")[0].id;
     let active = document.getElementById(activeID);
 
-    $(active).removeClass("active").addClass("inactive");
-    $(active).hide();
+    $(active).removeClass("active").addClass("inactive").hide();
+
 
     let target = document.getElementById(contentID);
-    $(target).addClass("active").removeClass("inactive");
-    $(target).show();
+    $(target).fadeIn(500).addClass("active").removeClass("inactive");
 });
 
 

@@ -31,7 +31,10 @@ body{
 
 .inactive{
     display: none;
+    transition: 0.5s;
 }
+
+
 
 
 .image{
