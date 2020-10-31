@@ -6,8 +6,9 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <script src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src = "https://code.jquery.com/jquery-3.5.0.js"></script>
-        <link rel = "stylesheet" href = "/assets/style/index.css">
         <link rel = "stylesheet" href = "https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
+        <link rel = "stylesheet" href = "/assets/style/index.css">
+
         <title>Jeanie and Raul's Maintenance</title>
     </head>
 
@@ -26,18 +27,48 @@
 
             <div id = "container" class = "tile is-ancestor">
                 <div class = "tile is-horizontal">
-                    <article id = "about" class = "tile is-3">
-                        <p class = "title"> About Us </p>
+                    <article id = "about" class = "tile is-3 is-vertical">
+                        <p id = "about-title" class = "title"> About Us </p>
+                        <p id = "about-text" class = "content-text">
+                            We are family owned and operated, and have been operating in the Rogue Valley since 1995. We offer professional, quality services in carpet cleaning, maintenance, indoor and outdoor painting, and move-out unit cleaning.<br>
+                            Contact us for information about our services, or for a quote!
+                        </p>
                     </article>
 
                     <div class = "tile is-vertical">
                         <div id = "card-container" class = "tile is-horizontal">
-                            <article id = "jeanie" class = "tile">
-                                <p>Jeanie </p>
+                            <article id = "jeanie" class = "tile card">
+                                <div class = "card-title tile is-vertical">
+                                    <p>Jeanie Orozco</p>
+                                    <div class = "card-image">
+                                        <img src = "assets/images/jeanie.jpg" class = "card-image">
+                                    </div>
+                                </div>
+
+                                <div class = "card-body is-vertical tile">
+                                    <p class = "position-title"> Title: </p>
+                                    <p class = "position"> Owner </p>
+                                    <p class = "contact-title"> Contact: </p>
+                                    <p class = "contact"> (541) 474-1334 </p>
+                                </div>
                             </article>
 
-                            <article id = "raul" class = "tile">  
-                                <p>Raul</p>
+                            <article id = "raul" class = "tile card"> 
+                                <div class = "card-title tile is-vertical">
+                                    <p>Raul</p>
+                                    <div class = "card-image">
+                                        <img src = "assets/images/raul.jpg" class = "card-image">
+                                    </div>
+                                </div>
+
+                                <div class = "card-body is-vertical tile">
+                                    <p class = "position-title"> Title: </p>
+                                    <p class = "position"> Owner </p>
+                                    <p class = "contact-title"> Contact: </p>
+                                    <p class = "contact"> (541) 474-1334 </p>
+                                </div>
+
+
                             </article>
                         </div>
                         <div id = "tab-container">
@@ -132,7 +163,7 @@
 
             <nav id = "footer" class = "level banner">
                 <div class = "level-left">
-
+                    <p id = "makers-mark"> Design by UKKA </p>
                 </div>
 
                 <div class = "level-right">
