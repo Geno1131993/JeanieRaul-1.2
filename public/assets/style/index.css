@@ -169,7 +169,6 @@ body{
 
 #tab-container:hover{
     background-color: rgba(255, 192, 113, 1);
-    color: rgba(184, 69, 67, 1);
     transition: .5s;
 }
 
