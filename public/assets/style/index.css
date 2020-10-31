@@ -16,7 +16,7 @@ body{
     background-color: rgba(132, 188, 213, 1);
     background-size: cover;
     overflow: scroll;
-    position:fixed;
+    
     min-width: 1536px;
 }
 
