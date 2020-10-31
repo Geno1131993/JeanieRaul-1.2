@@ -7,8 +7,9 @@
 
 
 body{
-    height: 100vh;
+    height: 100%;
     background-color: rgba(132, 188, 213, 1);
+    background: cover;
 }
 
 
@@ -16,6 +17,7 @@ body{
     padding: 10px;
     background-color: rgba(68, 103, 161, 1);
     color: white;
+    width: 100%;
 }
 
 
@@ -222,4 +224,12 @@ body{
 
 #makers-mark{
     font-size: 12px;
+}
+
+
+#wrapper{
+    margin-left:auto;
+    margin-right:auto;
+    width: 100%;
+    height: 100%;
 }

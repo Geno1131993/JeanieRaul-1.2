@@ -15,4 +15,15 @@ $(".tablink").on("click", function(event) {
 });
 
 
+$(document).ready(()=>{
+
+    $("#wrapper").css("width", $(window).width() + "px");
+    $("#wrapper").css("height", $(window).height() + "px");
+    $("#body").css("width", $(window).width() + "px");
+    $("#body").css("height", $(window).height() + "px");
+
+    $(".banner").css("width", $(window).width() + "px");
+});
+
+
 
